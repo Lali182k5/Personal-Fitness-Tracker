@@ -1,4 +1,4 @@
-🚀 Overview
+#🚀 Overview
 
 The Personal Fitness Tracker is an intelligent, machine learning-driven application designed to predict calorie burn based on user inputs such as age, BMI, heart rate, exercise duration, and body temperature. It leverages a Random Forest Regression model to make accurate predictions and offers a Streamlit-based user interface for seamless user interaction. This real-time, interactive tool empowers users to monitor and enhance their fitness journey without the need for wearable devices.
 
