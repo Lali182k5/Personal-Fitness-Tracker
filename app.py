@@ -15,8 +15,8 @@ page = st.sidebar.radio("Go to", ["Home", "Calorie Prediction", "Statistics & In
 # Load Data
 @st.cache_data
 def load_data():
-    calories = pd.read_csv(r"F:\PROJECT\fitness\calories.csv")
-    exercise = pd.read_csv(r"F:\PROJECT\fitness\exercise.csv")
+    calories = pd.read_csv("calories.csv")
+    exercise = pd.read_csv("exercise.csv")
     df = exercise.merge(calories, on="User_ID")
     df.drop(columns="User_ID", inplace=True)
     df["BMI"] = df["Weight"] / ((df["Height"] / 100) ** 2)
